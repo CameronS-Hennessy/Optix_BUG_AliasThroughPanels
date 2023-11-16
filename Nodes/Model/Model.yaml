@@ -1,0 +1,35 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: ObjectInstance
+  Id: g=ffd765d19fdd10f5b8c7bb3d592e06dc
+  Type: Object
+  Children:
+  - Name: Test_INT
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 42
+  - Name: Test_BOOL
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Test_String
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Hello!"
+- Name: Object
+  Id: g=fc2db43cfd4a4161cf06885aa160238e
+  Supertype: BaseObjectType
+  Children:
+  - Name: Test_INT
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 42
+  - Name: Test_BOOL
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Test_String
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Hello!"
